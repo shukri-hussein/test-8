@@ -1,0 +1,39 @@
+body{
+    background-color: chocolate;
+}
+
+.box1 img{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.box{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 450px;
+    border-radius: 18px;
+}
+h4{
+    margin-top: 20px;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    /* gap: 80px; */
+    justify-content: space-around;
+    margin-right: 140px;
+    margin-top: 50px;
+
+
+}
